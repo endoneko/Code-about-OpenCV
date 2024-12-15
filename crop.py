@@ -5,8 +5,8 @@ import numpy as np
 # 初始化ORB检测器
 orb = cv2.ORB_create()
 
-input_directory = 'blueberry'
-output_directory = 'output_images'
+input_directory = 'blueberry'#数据集的位置
+output_directory = 'output_images'#输出图像位置
 
 # 自定义裁剪区域大小
 CROP_SIZE = 1280  # 裁剪区域的宽和高（像素）
